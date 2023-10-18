@@ -146,7 +146,7 @@ git stash apply stash@{0} # appliquer le stash en indiquant id
 
 
 
-14. Annuler la modification après le commit
+14. Annuler la modification après le commit sur le dépôt local
 
 Quand on a effectué une modification du fichier sur la branche prinipale avec le commit, 
 
@@ -164,7 +164,7 @@ git reset --hard ca83a6df # appliquer ce commit sur votre nouvelle branche, Il n
 
 
 
-15. Changer le message de commit 
+15. Changer le message de commit sur le dépôt local
 
 ```shell
 git commit -m "hello" # previous message
@@ -182,7 +182,7 @@ git commit --amend --no-edit
 
 
 
-17. Annuler son commit public avec la commande **git revert**
+17. Annuler son commit public avec la commande **git revert** sur le dépôt distant (GitHub, etc)
 
 L'opération revert annule un commit en créant un nouveau commit. C'est une méthode sûre pour annuler des changements, car elle ne risque pas de réécrire l'historique du commit.
 
