@@ -4,3 +4,5 @@ Here I put my [learning notes in French](Git.md) of [Git and GitHub course](http
 
 Feel free to check out this course by clicking the link !
 
+[Git recap](images/git_recap.png)
+
